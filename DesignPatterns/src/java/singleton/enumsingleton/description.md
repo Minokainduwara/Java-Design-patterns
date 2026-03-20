@@ -12,3 +12,11 @@ public enum Day {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
 }
 ```
+
+# 2️⃣ Enum as Singleton
+
+Enums can also be used to implement a singleton pattern. Why?
+
+- Java guarantees that each enum constant is instantiated only once, no matter what.
+
+- It’s automatically thread-safe, serialization-safe, and reflection-safe.
