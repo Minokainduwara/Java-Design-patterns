@@ -7,8 +7,8 @@
 package com.factory.factory_method;
 
 public abstract class phone {
-    // Constructor to prevent direct instantiation
-    private phone(){
+    
+    protected phone(){
         throw new UnsupportedOperationException("Cannot instantiate abstract class");
     }
 
