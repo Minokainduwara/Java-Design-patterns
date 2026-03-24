@@ -7,7 +7,7 @@ public final class ClassSingleton {
         // private constructor to prevent instantiation   
     }
 
-    public static ClassSingleton getInstance() {
+    public static synchronized ClassSingleton getInstance() {
         if (INSTANCE == null) {
             INSTANCE = new ClassSingleton();
         }
