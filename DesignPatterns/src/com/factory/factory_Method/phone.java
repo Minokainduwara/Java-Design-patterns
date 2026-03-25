@@ -9,7 +9,7 @@ package com.factory.factory_method;
 public abstract class phone {
     
     protected phone(){
-        throw new UnsupportedOperationException("Cannot instantiate abstract class");
+        //throw new UnsupportedOperationException("Cannot instantiate abstract class");
     }
 
     // Abstract method to be implemented by subclasses
